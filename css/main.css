@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     color:white;
     line-height: 1.6;
@@ -15,14 +15,39 @@ body {
     top: 24px;
 }
 
+.logo {
+    position: absolute;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: -8px;
+
+}
+
+.navbar a {
+    /* position: absolute; */
+    text-align: center;
+    left: 500px;
+    text-decoration: none;
+    padding: 16px 16px;
+    color: white
+}
+
+.links {
+    position: absolute;
+    left: 820px;
+    top: 22px;
+}
+
+
 #bkg1 h2 {
     position: absolute;
     width: 500px;
     height: 60px;
-    left: 560px;
+    left: 600px;
     top: 430px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 45px;
     text-decoration: none;
     color: white;
@@ -32,9 +57,9 @@ body {
     position: absolute;
     width: 800px;
     height: 60px;
-    left: 350px;
+    left: 425px;
     top: 470px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 60px;
     text-decoration: none;
@@ -65,7 +90,7 @@ h5 {
     height: 30px;
     left: 440px;
     bottom: 550px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
@@ -78,7 +103,7 @@ h5 {
     height: 60px;
     left: 430px;
     top: 88px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 7800;
     font-size: 40px;
@@ -124,7 +149,7 @@ h5 {
     width: 200px;
     left: 49px;
     top: 285px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 700;
     font-size: 25px;
@@ -136,7 +161,7 @@ h5 {
     width: 200px;
     left: 78px;
     top: 285px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     text-decoration: none;
     font-weight: 700;
     font-size: 25px;
@@ -152,7 +177,7 @@ h5 {
     width: 360px;
     left: 71px;
     top: 1570px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 25px;
     color: black;
@@ -164,7 +189,7 @@ h5 {
     width: 680px;
     left: 68px;
     top: 1597px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 33px;
     color: black;
@@ -178,7 +203,7 @@ h5 {
     left: 68px;
     top: 1655px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: black;
@@ -207,7 +232,7 @@ h5 {
     width: 600px;
     left: 500px;
     top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 22px;
     color: white;
@@ -218,7 +243,7 @@ h5 {
     width: 700px;
     left: 420px;
     top: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 40px;
     color: white;
@@ -230,7 +255,7 @@ h5 {
     height: 650;
     left: 520px;
     top: 90px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 40px;
     color: white;
@@ -266,7 +291,7 @@ h5 {
     right: 6.27%;
     top: 10px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -281,7 +306,7 @@ h5 {
     top: 40px;
     line-height: 20px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;    
@@ -309,7 +334,7 @@ h5 {
     right: 6.27%;
     top: 10px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -323,7 +348,7 @@ h5 {
     top: 40px;
     line-height: 20px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;    
@@ -352,7 +377,7 @@ h5 {
     right: 6.27%;
     top: 10px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -366,7 +391,7 @@ h5 {
     top: 40px;
     line-height: 20px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;    
@@ -394,7 +419,7 @@ h5 {
     right: 6.27%;
     top: 10px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -408,7 +433,7 @@ h5 {
     top: 40px;
     line-height: 20px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;    
@@ -436,7 +461,7 @@ h5 {
     right: 6.27%;
     top: 10px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -450,7 +475,7 @@ h5 {
     top: 40px;
     line-height: 20px;
     bottom: -100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;    
@@ -464,7 +489,7 @@ h5 {
     width: 300px;
     height: 50px;
     top: 652px;
-    left: 560px;
+    left: 600px;
 }
 
 .dwtext {
@@ -472,7 +497,7 @@ h5 {
     width: 900;
     top: 10px;
     left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
@@ -485,12 +510,229 @@ h5 {
 
 .box5 h6 {
     position: absolute;
-    width: 549px;
-    height: 29px;
-    left: 445px;
-    top: 3199px;
-    font-family: Arial, Helvetica, sans-serif; 
+    width: 690px;
+    left: 500px;
+    top: 2920px;
+    font-family: 'Roboto', sans-serif; 
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
 }
+
+.box5 h1 {
+    position: absolute;
+    width: 700px;
+    left: 480px;
+    top: 2960px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(237, 115, 28, 0.985);
+}
+
+.box5_1 h1 {
+    position: absolute;
+    width: 600px;
+    height: 650;
+    left: 540px;
+    top: 3006px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(237, 115, 28, 0.985);
+}
+
+.separator3 {
+    position: absolute;
+    left: 4;
+    right: 46%;
+    bottom: -330%;
+    background: white;
+    transform: rotate(-180deg);
+}
+
+.fNameLab {
+    position: absolute;
+    left: 500px;
+    top: 3250px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.fNameInp {
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 3285px;
+    left: 500px;
+}
+
+.emailInfo {
+    position: absolute;
+    left: 500px;
+    top: 3390px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.emailDesc {
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 3425px;
+    left: 500px;
+}
+
+.pN {
+    position: absolute;
+    left: 500px;
+    top: 3542px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.pNDesc {
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: absolute;
+    width: 265px;
+    height: 50px;
+    top: 3582px;
+    left: 500px;
+}
+
+.pL {
+    position: absolute;
+    left: 838px;
+    top: 3547px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.pLDesc {
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: absolute;
+    width: 265px;
+    height: 50px;
+    top: 3582px;
+    left: 836px;
+}
+
+.subBut {
+    box-sizing: border-box;
+    border: 4px solid black;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 3690px;
+    left: 500px;
+}
+
+.subText {
+    position: absolute;
+    width: 900;
+    top: 10px;
+    left: 250px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.box6 {
+    position: absolute;
+    width: 1519px;
+    height: 310px;
+    left: 0px;
+    top: 3800px;
+    background: black
+}
+
+.box6 h1 {
+    position: absolute;
+    width: 790px;
+    height: 650px;
+    left: 210px;
+    top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgba(237, 115, 28, 0.985);  
+}
+
+.seccLogo {
+    position: absolute;
+    width: 298px;
+    height: 141px;
+    left: 958px;
+    top: 90px;
+}
+
+.USOffice {
+    position: absolute;
+    width: 790px;
+    left: 60px;
+    top: 4200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(237, 115, 28, 0.985); 
+}
+
+.USAddress {
+    position: absolute;
+    width: 560px;
+    height: 78px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+
+}
+
+
+.CANOffice {
+    position: absolute;
+    width: 790px;
+    left: 1296px;
+    top: 4200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(237, 115, 28, 0.985);
+}
+
+.CANAddress {
+    position: absolute;
+    width: 560px;
+    height: 78px;
+    text-align: right;
+    right: 620px;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    top: 4380px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
