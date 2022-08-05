@@ -307,7 +307,7 @@ h5 {
     line-height: 20px;
     bottom: -100px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 20px;
     text-align: center;    
     color: black;
@@ -349,7 +349,7 @@ h5 {
     line-height: 20px;
     bottom: -100px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 20px;
     text-align: center;    
     color: black;
@@ -392,7 +392,7 @@ h5 {
     line-height: 20px;
     bottom: -100px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 20px;
     text-align: center;    
     color: black;
@@ -434,7 +434,7 @@ h5 {
     line-height: 20px;
     bottom: -100px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 20px;
     text-align: center;    
     color: black;
@@ -476,7 +476,7 @@ h5 {
     line-height: 20px;
     bottom: -100px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 20px;
     text-align: center;    
     color: black;
@@ -553,7 +553,7 @@ h5 {
 
 .fNameLab {
     position: absolute;
-    left: 500px;
+    left: 420px;
     top: 3250px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -567,12 +567,12 @@ h5 {
     width: 600px;
     height: 50px;
     top: 3285px;
-    left: 500px;
+    left: 420px;
 }
 
 .emailInfo {
     position: absolute;
-    left: 500px;
+    left: 420px;
     top: 3390px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -586,12 +586,12 @@ h5 {
     width: 600px;
     height: 50px;
     top: 3425px;
-    left: 500px;
+    left: 420px;
 }
 
 .pN {
     position: absolute;
-    left: 500px;
+    left: 420px;
     top: 3542px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -605,12 +605,12 @@ h5 {
     width: 265px;
     height: 50px;
     top: 3582px;
-    left: 500px;
+    left: 420px;
 }
 
 .pL {
     position: absolute;
-    left: 838px;
+    left: 758px;
     top: 3547px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -624,7 +624,7 @@ h5 {
     width: 265px;
     height: 50px;
     top: 3582px;
-    left: 836px;
+    left: 756px;
 }
 
 .subBut {
@@ -634,7 +634,7 @@ h5 {
     width: 600px;
     height: 50px;
     top: 3690px;
-    left: 500px;
+    left: 420px;
 }
 
 .subText {
