@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,185 +13,203 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">    
     </head>
-<body>    
-    <!-- MAIN CONTENT -->
-<header id="bkg1">
-        <img src="assets/images/bkg_1.jpg" alt="bkg" width="1519" height="720">
-        
+
+    <body id="body">  
         <div class="navbar">
-            <div class="logo">
-                <img src="assets\images\logo_sublight.svg">
+            <header>
+                <div class="logo">
+                    <a href="#body">
+                        <img src="assets/images/logo_sublight.svg" alt="logo">
+                    </a>
+                </div>
+                
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <nav id="nav">
+                    <ul id="nav-ul">
+                        <li><a href="#">OUR SERVICES</a></li>
+                        <li><a href="#">OUR PRODUCTS</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>  
+    
+        <div class="bkg1 align_text">
+            <div class="info">
+                <h2>OUR MISSION</h2>
+                <h1>TAKE YOU TO THE TOP</h1>
             </div>
-                <!-- <a href="#ourservices">OUR SERVICES</a>  -->
-
-            <div class="links">
-                <a href="#ourproducts">OUR PRODUCTS</a>
-                <a href="#ourservices">OUR SERVICES</a>
-                <a href="#aboutus">ABOUT US</a>
-                <a href="contactus">CONTACT US </a>
+            <div>
+                <a href="#"><img src="assets/images/elevator button.svg" alt="elevButton"></a>
             </div>
-              
-        </div>
-
-        <h2>OUR MISSION</h2>
-        <h1>TAKE YOU TO THE TOP</h1>
-
-        <div class="elevButton">
-            <img src="assets\images\elevator button.svg" alt="button">
-        </div>
-    
-</header>
-
-<section id="box2">
-    <div class="box2">
-        <h5>ONE-STOP FOR YOUR ELEVATOR NEEDS</h5>
-        <h1>ONE STEP CLOSER TO SUCCES</h1>
-    </div>
-    
-    <div class="separator">
-        <img src="assets\images\separator.svg">
-    </div>
-
-    <div class="designLogo">
-        <img src="assets\images\design.svg">
-        <div class="text1">WE DESIGN</div>    
-    </div>
-
-    <div class="buildLogo">
-        <img src="assets\images\build.svg">
-        <div class="text2">WE BUILD</div>  
-    </div>
-
-    <div class="maintLogo">
-        <img src="assets\images\maintenance.svg">
-        <div class="text1">WE MAINTAIN</div>  
-    </div>
-</section>
-
-<section id="box3">
-    <div class="box3text1">2022 SECRUBOARDS SERIES</div>
-    <div class="box3text2">THE PERFECTION IN SECURITY</div>
-    <p>consectetur adipiscing elit. Vulputate diam placerat a et pulvinar sapien orci mauris platea. Consectetur 
-    non adipiscing duis quis leo integer adipiscing elit. Felis, cursus aenean at egestas mauris. Senectus pharetra volutpat
-    ligula ac et. Morbi amet dignissim ipsum, in accumsan. Rhoncus in erat consectetur mi consectetur. At faucibus 
-    pellentesque et aliquet mauris. Senectus facilisi at elementum lectus non egestas. In elementum cum suspendisse quam. 
-    Congue sagittis fermentum mauris fermentum ut lectus parturient faucibus id</p>
-    <div class="box3img">
-        <img src="assets\images\bkg_2.jpg" alt="bkg2">
-    </div>
-</section>
-
-<section id="box4">
-    <div class="box4">
-        <h3>NEED MORE FOR YOUR FLEET OF ELEVATORS</h3>
-        <h1>ALL OUR PRODUCTS ARE MADE</h1>
-        <div class="box4_1">
-            <h1> WITH HEART AND SOUL</h1>
-        </div>
-    </div>
-    <div class="separator2">
-        <img src="assets\images\separatorblk.svg">
-    </div>
-    
-    <div class="img1">
-        <img src="assets\images\bkg_2 2.jpg">
-        <div class="mbox1">
-            <div class="title1">SAFETY</div>
-            <div class="desc1">Lorem ipsum dolor sit amet consectetur.</div>
-        </div>
-    </div>
-    
-
-    <div class="img2">
-        <img src="assets\images\bkg_2 2 (1).jpg">
-        <div class="mbox2">
-            <div class="title2">CAB</div>
-            <div class="desc2">Lorem ipsum dolor sit amet consectetur.</div>
-        </div>
-    </div>
-
-    <div class="img3">
-        <img src="assets\images\bkg_2 2 (2).jpg">
-        <div class="mbox3">
-            <div class="title3">DOOR</div>
-            <div class="desc3">Lorem ipsum dolor sit amet consectetur.</div>
         </div>
         
-    </div>
+        <div id="box2" class="box2">
+            <div class="box2_title align_text">
+               <div class="child">
+                    <p>ONE-STOP FOR OUR ELEVATOR NEEDS</p>
+                    <p>ONE STEP CLOSER TO SUCCESS</p>
+                    <img src="assets/images/separator.svg" alt="separator1">
+               </div> 
+            </div>
+            <div class="row">
+                <div class="element">
+                    <img src="assets/images/design.svg" alt="design">
+                    <p>WE DESIGN</p>
+                </div>
+                <div class="element">
+                    <img src="assets/images/build.svg" alt="build">
+                    <p>WE BUILD</p>
+                </div>
+                <div class="element">
+                    <img src="assets/images/maintenance.svg" alt="maintain">
+                    <p>WE MAINTAIN</p>
+                </div>
+            </div>
+        </div>
+        <div id="box3" class="box3">
+            <div class="section">
+                <p>2022 SECUREBOARDS SERIES</p>
+                <p>THE PERFECTION IN SECURITY</p>
+                <p>consectetur adipiscing elit. Vulputate diam placerat a et pulvinar sapien orci mauris platea. Consectetur 
+                non adipiscing duis quis leo integer adipiscing elit. Felis, cursus aenean at egestas mauris. Senectus pharetra volutpat
+                ligula ac et. Morbi amet dignissim ipsum, in accumsan. Rhoncus in erat consectetur mi consectetur. At faucibus 
+                pellentesque et aliquet mauris. Senectus facilisi at elementum lectus non egestas. In elementum cum suspendisse quam. 
+                Congue sagittis fermentum mauris fermentum ut lectus parturient faucibus id</p>
+            
+                </div>
+            <div>
+                <img src="assets/images/bkg_2.jpg" alt="2ndBoxImg">   
+            </div>
 
-    <div class="img4">
-        <img src="assets\images\bkg_2 2 (3).jpg">
-        <div class="mbox4">
-            <div class="title4">MECHANICS</div>
-            <div class="desc4">Lorem ipsum dolor sit amet consectetur.</div>
         </div>
-    </div>
-
-    <div class="img5">
-        <img src="assets\images\bkg_2 2 (4).jpg">
-        <div class="mbox5">
-            <div class="title5">HOISTWAY/HATCH</div>
-            <div class="desc5">Lorem ipsum dolor sit amet consectetur.</div>
+        <div id="box4" class="box4">
+            <div class="title align_text section_1">
+                <p>NEED MORE FOR YOUR FLEET OF ELEVATORS </p>
+                <p>ALL OUR PRODUCTS ARE MADE<br>WITH HEART AND SOUL</p>
+                <img src="assets/images/separatorblk.svg" alt="separator 2">
+            </div>
+            <div class="box4_list">
+                <div class="element">
+                    <div class="img">
+                        <img src="assets/images/bkg_2 2.jpg">
+                    </div>
+                    <div class="box4_list_element_info">
+                        <p class="box4_list_element_title">SAFETY</p>
+                        <p class="box4_list_element_text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="element">
+                         <div class="img">
+                            <img src="assets/images/bkg_2 2 (1).jpg">
+                        </div>
+                        <div class="box4_list_element_info">
+                            <p class="box4_list_element_title">GAP</p>
+                            <p class="box4_list_element_text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                </div>
+                <div class="element">
+                         <div class="img">
+                            <img src="assets/images/bkg_2 2 (2).jpg">
+                        </div>
+                        <div class="box4_list_element_info">
+                            <p class="box4_list_element_title">DOOR</p>
+                            <p class="box4_list_element_text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                </div>
+                <div class="element">
+                         <div class="img">
+                            <img src="assets/images/bkg_2 2 (3).jpg">
+                        </div>
+                        <div class="box4_list_element_info">
+                            <p class="box4_list_element_title">MECHANICS</p>
+                            <p class="box4_list_element_text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                </div>
+                <div class="element">
+                         <div class="img">
+                            <img src="assets/images/bkg_2 2 (4).jpg">
+                        </div>
+                        <div class="box4_list_element_info">
+                            <p class="box4_list_element_title">HOISTWAY/HATCH</p>
+                            <p class="box4_list_element_text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                </div>
+            </div>
+            <div class="dwnlBut">
+                <p>DOWNLOAD OUR CATALOG</p>
+            </div>
         </div>
-    </div>
-    <div class="dwbox">
-        <div class="dwtext">DOWNLOAD OUR CATALOG</div>
-    </div>
-</section>
-
-<section id="box5">
-    <div class="box5">
-        <h6>STAY IN TOUCH WITH OUR CUSTOMER SERVICE</h6>
-        <h1>FEEL FREE TO CONTACT US</h1>
-        <div class="box5_1">
-            <h1>FOR ANY QUESTIONS</h1>
+        <div class="box5">
+            <div class="align_text title">
+                <p>STAY IN TOUCH WITH OUR CUSTOMER SERVICE</p>
+                <p>FEEL FREE TO CONTACT US<br>FOR ANY QUESTIONS</p>
+                <img src="assets/images/separatorblk.svg">
+            </div>
+            <div class="box5_info">
+                <form>
+                    <div>
+                        <label for="inputName">NAME*</label><br>
+                        <input id="inputName" name="name" required>
+                    </div>
+                        <!-- <input type="text"> -->
+                    <!-- </div> -->
+                    <div>
+                        <label for="inputEmail">EMAIL ADDRESSES*</label><br>
+                        <input id="inputEmail" email="email" required>
+                    </div>
+                        <div>
+                            <label for="phoneNum">PHONE NUMBER</label><br>
+                            <input id="phoneNum" phoneNumber="Phone Number" required>
+                            <br>
+                        </div>
+                        <div>
+                            <label for="language">PREFERED LANGUAGE</label><br>
+                            <input id="language" language=" Preferred language" required>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- <div class="subBut"> -->
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="separator3">
-            <img src="assets\images\separatorblk.svg">
+        <div class="box6">
+            <p>With your trust since 1943</p>
+            <img src="assets/images/signature.svg" alt="elevator signature">
         </div>
-        
-        <div class="fNameLab">NAME*</div>
-        <div class="fNameInp"></div>
-        <div class="emailInfo">EMAIL ADDRESS*</div>
-        <div class="emailDesc"></div>
-        <div class="pN">PHONE NUMBER</div>
-        <div class="pNDesc"></div>
-        <div class="pL">PREFERRED LANGUAGE</div>
-        <div class="pLDesc"></div>
-        <div class="subBut">
-            <div class="subText">SUBMIT</div>
+        <footer id="footer">
+            <div class="row">
+                <div>
+                    <div class="USnum">
+                        <h4>UNITED STATES OFFICE<h4>
+                        <p>456 HARLEM BOULEVARD <br> SARATOGA SPRINGS, NY, USA</p>
+                        <h2>1 999 543-4567</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="CanNum">
+                        <h4>CANADA'S OFFICE</h4>
+                        <p>23895 BRADSHAW BOULEVARD <br> KINGSTON, ONT, CA</p>
+                        <h2>1 999 543-4567</h2>
+                    </div>
+                </div>
+            </div>
+            <p id="inc">All rights reserved to CodeBoxx Solutions ©, 2022.</p>
+        </footer>
+        <div id="dwnlBut_container">
+            <div class="button_mobile_screen">
+                <p><a href="#">DOWNLOAD OUR CATALOG</a></p>
+            </div>
         </div>
-    </div>
-</section>
-
-<section id="box6">
-    <div class="box6">
-        <h1>With your trust since 1943</h1>
-        <div class="seccLogo">
-            <img src="assets\images\signature.svg">
-        </div>
-    </div>
-</section>
-
-    <!-- FOOTER -->
-
-    <section id="footer">
-        <div class="USOffice">UNITED STATES OFFICE
-            <div class="USAddress">456 HARLEM BOULEVARD <br> SARATOGA SPRINGS, NY, USA <br> <b>1 999 543-4567</b></div>
-        </div>
-
-        <div class="CANOffice">CANADA OFFICE
-            <div class="CANAddress">23895 BRADSHAW BOULEVARD<br>KINGSTON, ONT, CA<br> <b>1 999 543-4567</b> </div>
-        </div>
-
-        <div class="footer">
-            <b>All rights reserved to CodeBoxx Solutions &copy;, 2022.</b>
-        </div>
-    </section>
-    
-    <!-- SCRIPTS -->
-    <script src="" async defer></script>
-</body>
+        <script src="js\main.js" async defer></script>
+    </body>
 </html>
 
 
